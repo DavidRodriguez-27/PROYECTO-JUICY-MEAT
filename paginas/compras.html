@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <title>  COMPRAS </title>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    
+    <link href="../css/inicio.css" rel="stylesheet" />
+    <link href="../css/compras.css" rel="stylesheet" />
+    <script src="../js/compras.js"></script>
+</head>
+
+
+    
+<body>
+    <div id="principal">    
+        <header>     
+             <div id="divlogo">
+                <a href="../paginas/inicio.html"> <img src="../imgs/logo01.jpg" alt=""></a>  
+
+                <form id="frmbuscar" onsubmit="cargar(this)">                  
+                     <img id="carro" src="../imgs/compras.png" /> 
+
+                     <input type = "text" name="txtproducto" placeholder=" Search "> 
+                     <input type="submit" value="Buscar">                     
+                
+             </form>
+            </div>
+          
+    </header>
+
+    <div class="pagos">  
+        <h1> Nuestra tienda online </h1>
+        <button id="checkout" class="button-checkout" onclick="pagar()"> Pagar </button>
+    </div>
+
+    <div class="tienda">  
+        <div class="pedidos">
+            <h3> Doble carne</h3>
+            <img src= "../imgs/burger09.png"  />
+            <h1>S/. 11.90 </h1>
+            <button class="adicionar" onclick="agregar('01 -Doble carne', 11.90)">Comprar</button>
+        </div>
+
+        <div class="pedidos">
+            <h3>The queen</h3>
+            <img src= "../imgs/burger02.jpg" />
+            <h1>S/. 15.90</h1>
+            <button class="adicionar" onclick="agregar('01 - The queen', 15.90)">Comprar</button>
+        </div>
+
+        <div class="pedidos">
+            <h3>La brava </h3>
+            <img src= "../imgs/burger03.jpg"  />
+            <h1>S/. 9.90</h1>
+            <button class="adicionar" onclick="agregar('01 - La brava', 9.90)">Comprar</button>
+        </div>
+
+        <div class="pedidos">
+            <h3> La  Magnifica</h3>
+            <img src= "../imgs/burger08.png" />
+            <h1>S/.19.90</h1>
+            <button class="adicionar" onclick="agregar(' 01 -La  Magnifica', 19.90)">Comprar</button>
+        </div>
+
+        <div class="pedidos">
+            <h3>La epica</h3>
+            <img src= "../imgs/burger05.jpg" />
+            <h1>S/. 22.50</h1>
+            <button class="adicionar" onclick="agregar('01 - La epica', 22.50)">Comprar</button>
+        </div>
+
+        <div class="pedidos">
+            <h3> Para compartir</h3>
+            <img src= "../imgs/combo07jpg.jpg"  />
+            <h1>S/.24.80</h1>
+            <button class="adicionar" onclick="agregar('Product-6', 24.80)">Comprar</button>
+        </div>
+    </div>
+
+</div>
+
+</body>

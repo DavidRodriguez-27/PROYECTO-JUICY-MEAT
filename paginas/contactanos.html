@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos - Juicy Meat</title>
+    <link rel="stylesheet" href="../css/estilos.contactenos.css">
+</head>
+<body>
+    <div class="logotipo">
+        <center>
+        <img src="../imgs/Logo Final.jpeg" alt="" title="">
+     </div>
+    <h1>Contáctanos - Juicy Meat</h1>
+    
+        <h4>
+            Ponemos a disposición nuestro formulario para dejarnos sus consultas y/o reclamos respecto a nuestro servicio.
+            <br>
+            <br>
+            
+            Por favor completa el siguiente formulario y nos pondremos en contacto contigo a la brevedad.
+            <br>
+            <br>
+            Si deseas regresar a nuestra página de inicio, da clic <a href="inicio.html">aquí</a>.
+        </h4>
+
+
+<header>
+    <div id="header-rs"></div>
+</header>
+ 
+<section id="formulario">
+    <fieldset>
+    
+        <legend>FORMULARIO DE DATOS PERSONALES</legend>
+        <br>      
+    <form id="frmContactenos" onsubmit="registrar(this)">
+        <table>
+            <tr>
+                <td>Documento de Identidad</td>
+                <td><input name="txtdni" placeholder="Ingrese su DNI o CE ...">
+                </td>
+            </tr>
+            <td><br></td>
+            <tr>
+                <td>Nombres Completos</td>
+                <td><input type="text" name="txtnombre" placeholder="Ingrese sus nombres completos..." required></td>
+            </tr>
+            <td><br></td>
+            <tr>
+                <td>Apellidos Completos</td>
+                <td><input type="text" name="txtapellido" placeholder="Ingrese sus apellidos completos..." required></td>
+            </tr>
+            <td><br></td>
+            <tr>
+                <td>Correo Electrónico</td>
+                <td><input type="text" name="txtemail" placeholder="Ingrese su email..." required></td>
+            </tr>
+            <td><br></td>
+            <tr>
+                <td>Número de Teléfono</td>
+                <td><input type="text" name="txtfono" placeholder="Ingrese su Teléfono..." required></td>
+            </tr>
+        <td><br></td>
+   
+        <tr>
+            <td>Tipo de solicitud</td>
+            <td>
+                <input type="checkbox" name="Tipo" value="R">Reclamo
+                <input type="checkbox" name="Tipo" value="C">Consulta                
+            </td>
+        </tr>
+        <tr>
+           <td> <label for="Por favor detalla tu caso">Por favor detalla tu caso: </label><br></td>
+
+           <td> <textarea name="comentario" placeholder="Detalle su consulta o queja..." id="comentario" cols="30" rows="5" maxlength="120"></textarea><br><br></td>
+            
+        </tr>
+
+             <td><br></td>
+             <td><br></td>
+
+    <tr>
+       <td><input type="submit" value="Enviar"></td>
+       <td><input type="reset" value="Restablecer"></td>    
+
+    </tr>
+
+    <tr><td><br></td></tr>
+
+ 
+</table>
+</form>
+</fieldset>
+</section>
+</body>
+
+</html>
+
+
+<script src="../js/valida.js"></script>

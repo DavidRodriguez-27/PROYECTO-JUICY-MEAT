@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: rgb(61, 16, 31);
+    margin:0px auto;
+}
+
+#contenedor {
+	width: 80%;
+	height: auto;
+	float: center;
+	margin:0 10% 0 10%;
+	background-color: white;
+}
+
+header{
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+#frmbuscar {
+    margin-top: 10px;
+    display: flex;
+    float: right;
+}
+
+#compras {
+    width: 13%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    width: 100%;
+}
+
+.menu li a {
+    text-decoration: none;
+    background-color:rgb(236, 241, 236);
+    border:1px solid rgb(21, 22, 21);
+    color: white;
+    padding: 5px;    
+    display: block;
+    font-size: 18px;
+    color: rgb(75, 5, 75);
+    text-align: center;
+    width: 100%;
+    
+    -webkit-transition: font size 300ms linear 0s;
+    transition: font size 300ms linear 0s;
+}
+
+.menu li a:hover{
+    background-color: rgb(224, 222, 64);   
+}
+
+.menu > li {
+    display: inline-block;
+    width: 24%;     /*  modificar*/
+}
+
+.menu li:hover > ul {
+display: block;
+}
+
+.menu li ul li {
+position: relative; }
+
+#imgbanner {
+    margin-top: 20px;
+    width: 100%;
+}
+
+main section {
+    width: 90%;
+    display: flex;
+    padding: 50px 50px 50px 50px;
+}
+
+main section div h4 {
+    padding-top: 25px;
+    padding-right: 50px;
+}
+
+main section img {
+    padding-left: 50px; 
+}
+
+#imgmision #imgvision {
+    margin: auto;
+    width: 80%;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    width: 100%;
+    margin-left: 50px;
+}
+
+footer div a{
+    padding-top: 110px;
+    float: left;
+}
+
+.divfooter {
+    padding-top: 110px;
+    padding-left: 200px;
+    float: right;
+}
+

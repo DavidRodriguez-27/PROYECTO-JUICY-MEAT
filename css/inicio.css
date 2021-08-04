@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    border: 0;}
+
+ 
+
+body{
+		color: rgb(20, 14, 18);
+        background-color: rgb(61, 16, 31);
+		margin:0px auto;
+	}
+
+#principal{
+
+	 width: 90%;
+	 height: auto;
+	 float: left;
+	 margin:0 5% 0 5%;
+	 border-radius: 20px 20px 0 0;
+	 background-color:white;
+} 
+
+ 
+#imgbaner{
+	width: 100%;
+	height: 360px;
+	float: center;
+}
+ 
+ nav{
+     width: 100%;    
+     float: left;
+     margin: left;
+     
+ }
+ 
+ ul {
+     list-style: none;   
+ }
+ 
+
+ ul{
+    list-style: none;
+  }
+
+  .menu li>a{
+    background-color:rgb(236, 241, 236);
+    border:1px solid rgb(21, 22, 21); 
+    color: white;
+    padding: 5px;
+    display: block;
+    font-size: 18px;
+    color: rgb(75, 5, 75);
+    text-align: center;
+    text-decoration: none;
+    min-width: 100px;
+  }
+  
+  .menu li>a:hover{
+    color: #000;
+    background-color: #eaeaea;
+  }
+
+  
+  .menu > li{
+    float: left;
+    text-align:center
+  }
+  .menu > li >ul{
+    display: none;
+  }
+  .menu > li:hover > ul {
+    display:block;
+  }
+
+   .menu > li {   
+     float : left;
+     /* display: inline-block; */ 
+     width: 24%;   
+ }
+
+ .menu li a:hover{
+    background-color: rgb(224, 222, 64);     
+}
+
+ 
+ #carro {
+    width: 15%;
+}
+ #frmbuscar {
+    align-items: center;
+    float: right;
+    padding: 5px;        
+}
+
+ /* #busqueda {
+     align-items: center;
+     float: right;
+     padding: 5px;        
+ } */ 
+ 
+ #divlogo{
+     width: 99%;
+     padding: 3%;    
+     height: auto;
+     float: center;     
+ }
+ 
+ 
+ #nav {
+     display: flex;
+ }
+ 
+ article {
+     margin: 0 8px 8px 0;
+     text-align: center;
+     color: papayawhip;
+     float: left;
+     box-shadow: 0 4px 8px 0 rgb(121, 15, 56); 
+    /* padding: 2px 16px;
+    position: relative;
+    
+    background-color: white; */ 
+ }
+ 
+ 
+ article img {    
+    
+     padding: 2px;        
+     float: right;
+ }
+ 
+ h1 {
+     text-align: center;
+     color:  yellowgreen;   
+     font: impact ; 
+     font-size: 2cm;  
+
+
+ }
+ 
+ .social {  
+  float: right; 
+  margin: 5% , 10%;
+  margin-top: 36%;
+ }
+ 
+ p {
+     text-align: left;
+ }
+ 
+ h3 {
+    text-align: center;
+    color: rgb(61, 16, 31);
+    font: impact ; 
+    
+    
+}
+  
+ .impact {
+     text-align: center;
+ }
+
+ 
+ footer{
+     width: 100%;
+     display: flex;
+ }
+
+ footer div {
+    
+    margin-left: 50px;
+}
+
+ footer div a{
+    padding-top: 100px;
+    margin-left: 50px;
+    float: left;
+}
+
+
+ .divfooter {
+    margin-left: 60px;
+    padding-top: 100px;
+    padding-left: 80px;
+    float: right;
+}
+
+/* personalizacion de boton producto */ 
+
+.boton_produc{
+    text-decoration: none;
+    padding: 5px;
+    float: right;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    border-radius: 6px;
+    border: 2px solid blue;
+  }
+  .boton_produc:hover{
+    color: #1883ba;
+    background-color:white;
+  }

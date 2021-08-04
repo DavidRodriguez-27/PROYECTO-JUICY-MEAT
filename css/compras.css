@@ -1,0 +1,82 @@
+body {
+    margin: 0px;
+    background-color:rgb(88, 13, 66);
+    font-family: 'Nerko One', cursive;
+}
+
+button {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.pagos {
+    background-color: #660b38;
+    border: 1px solid black;
+    position: relative;
+}
+
+.pagos h1 {
+    margin: 20px;
+}
+
+.button-checkout {
+    background-color: white;
+    color: black;
+    border: 2px solid blue; 
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.button-checkout:hover {
+    background-color: blue;  
+    color: white;
+}
+
+
+.tienda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pedidos {
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.pedidos:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.pedidos img {
+    width: 400px;
+}
+
+.pedidos h1 {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.adicionar {
+    background-color: white;
+    color: black;
+    border: 2px solid  green;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.adicionar:hover {
+    background-color: green;
+    color: white;
+}
